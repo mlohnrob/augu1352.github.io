@@ -23,14 +23,7 @@ p {
     text-align: center;
 }
 
-.materialer {
+ul {
     text-align: center;
-}
-
-.materialer ul {
-    display: inline-block;
-}
-
-.materialer li {
-    display: inline-block;
+    list-style-position: inside;
 }
