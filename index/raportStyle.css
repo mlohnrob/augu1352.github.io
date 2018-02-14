@@ -28,9 +28,9 @@ p {
 }
 
 .materialer ul {
-    display: inline-table;
+    display: inline-block;
 }
 
 .materialer li {
-    display: inline;
+    display: inline-block;
 }
