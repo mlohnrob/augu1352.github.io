@@ -3,7 +3,13 @@ body {
 }
 
 h1 {
-    text-align: center;
+    font-style: italic;
+}
+
+    /* text-align: center;
+}
+
+h1 {
     font-style: italic;
 }
 
@@ -25,7 +31,7 @@ h5 {
 
 p {
     text-align: center;
-}
+} */
 
 ul {
     text-align: center;
