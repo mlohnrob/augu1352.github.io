@@ -1,1 +1,1 @@
-document.cookie = "username=John Doe";
+document.cookie = " 	";
