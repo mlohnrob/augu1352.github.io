@@ -31,17 +31,19 @@ function getResult() {
 	}
 }
 
-function keyPressed() {
+function trainFirst() {
 	const logits = features.infer(video);
-	if (key == "1") {
+	for (i = 0; i < 150; i++) {
 		knn.addExample(logits, "one");
 		console.log("Nummer 1");
-	} else if (key == "2") {
+	}
+}
+
+function trainSecond() {
+	const logits = features.infer(video);
+	for (i = 0; i < 150; i++) {
 		knn.addExample(logits, "two");
 		console.log("Nummer 2");
-	}
-	if (key == " ") {
-
 	}
 }
 
