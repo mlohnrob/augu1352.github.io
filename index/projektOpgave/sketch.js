@@ -13,6 +13,11 @@ function modelReady() {
   console.log("Model Ready");
 }
 
+function mousePressed() {
+  const logits = features.infer(video);
+  console.log(logits);
+}
+
 function draw() {
   image(video, 0, 0);
   }
