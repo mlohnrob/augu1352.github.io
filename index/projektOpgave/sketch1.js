@@ -107,7 +107,7 @@ function changeLabels(text) {
 
 function draw() {
 	image(video, 0, 0);
-
+	console.log(video);
 	if (!ready && knn.getNumLabels() > 0) {
 		getResult();
 		ready = true;
