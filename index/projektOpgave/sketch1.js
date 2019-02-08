@@ -113,8 +113,6 @@ function draw() {
 		ready = true;
 	}
 
-	fullFaceDescriptions = faceapi.detectAllFaces(video).withFaceLandmarks().withFaceDescriptors();
-	const detectionsArray = fullFaceDescriptions.map(fd => fd.detection);
-	faceapi.drawDetection(canvas, detectionsArray, { withScore: true });
+
 
 }

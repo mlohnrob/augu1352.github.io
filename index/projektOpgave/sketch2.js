@@ -1,4 +1,4 @@
-import {run} from "./sketch3.js";
+import * from "./sketch3.js";
 
 let canvas;
 let video;
