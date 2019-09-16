@@ -13,6 +13,7 @@ function setup() {
 	canvas = createCanvas(480, 480);
 	video = createCapture(VIDEO);
 	video.size(480, 480);
+	video.style("transform", "scale(-1,1)");
 	video.hide();
 	features = ml5.featureExtractor('MobileNet', modelReady);
 	knn = ml5.KNNClassifier();
