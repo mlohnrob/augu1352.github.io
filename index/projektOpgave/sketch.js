@@ -1,16 +1,23 @@
-let capture;
+let video;
+let features;
 
 function setup() {
   createCanvas(320, 240);
-  capture = createCapture(VIDEO);
-  capture.size(320, 240);
-  // capture.hide();
+  video = createCapture(VIDEO);
+  video.size(320, 240);
+  video.hide();
+  features = ml5.featureExtractor('MobileNet', modelReady);
 }
 
 function modelReady() {
   console.log("Model Ready");
 }
 
+function mousePressed() {
+  const logits = features.infer(video);
+  console.log(logits);
+}
+
 function draw() {
-  image(capture, 0, 0, 320, 240);
+  image(video, 0, 0);
   }
