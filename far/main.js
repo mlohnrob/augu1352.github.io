@@ -1,4 +1,4 @@
-for (let i = 0; i < 58; i++) {
+for (let i = 0; i < 76; i++) {
     $('.slideshow-container').append(`<div class="mySlides fade"><img src="./assets/image${i}.jpg" /></div>`);
     console.log(`done: ${i}`);
   }
