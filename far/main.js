@@ -1,12 +1,22 @@
-var count = 1;
-setInterval(function() {
-  count = ($(".slideshow :nth-child("+count+")").fadeOut().next().length == 0) ? 1 : count+1;
-  $(".slideshow :nth-child("+count+")").fadeIn();
-}, 2000);
+for (let i = 0; i < 30; i++) {
+    $('.slideshow-container').append(`<div class="mySlides fade"><img src="../assets/image${i}.jpg" /></div>`);
+    console.log(`done: ${i}`);
+  }
+  
 
 
+var slideIndex = 0;
+showSlides();
 
-for (let i = 0; i < 4; i++) {
-  $('.slideshow').append(`<img src="./assets/image${i}.jpg" />`);
-  console.log(`done: ${i}`);
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+
+  slides[slideIndex-1].style.display = "block";  
+  setTimeout(showSlides, 4500); // Change image every 2 seconds
 }
