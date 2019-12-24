@@ -1,5 +1,5 @@
 for (let i = 0; i < 30; i++) {
-    $('.slideshow-container').append(`<div class="mySlides fade"><img src="../assets/image${i}.jpg" /></div>`);
+    $('.slideshow-container').append(`<div class="mySlides fade"><img src="./assets/image${i}.jpg" /></div>`);
     console.log(`done: ${i}`);
   }
   
