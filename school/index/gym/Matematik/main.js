@@ -47,3 +47,10 @@ function renteformel(form) {
     results.insertBefore(n_node, results.childNodes[0]);
   }
 }
+
+function clearResults() {
+  let results = document.getElementById("results");
+  while (results.firstChild) {
+    results.removeChild(results.firstChild);
+  }
+}
