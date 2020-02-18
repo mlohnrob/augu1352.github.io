@@ -1,13 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="../../indexStyle.css">
+  <!-- <link rel="stylesheet" href="../../indexStyle.css"> -->
+  <script src="main.js"></script>
   <title>Document</title>
 </head>
-<body>
 
+<body>
+  <form>
+    <label for="k_0">Startkapital:</label><br>
+    <input type="text" id="k_0" name="k_0"><br>
+    <label for="r">Rente:</label><br>
+    <input type="text" id="r" name="r"><br>
+    <label for="n">Antal Terminer:</label><br>
+    <input type="text" id="n" name="n"><br>
+    <label for="k_n">Slutkapital:</label><br>
+    <input type="text" id="k_n" name="k_n"><br><br>
+    <input type="button" value="Udregn" onclick="renteformel(this.form)">
+  </form>
+
+  <ul id="results">
+  </ul>
 </body>
+
 </html>
