@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<pagescount>
+	<html_total>10</html_total>
+	<html_done>6</html_done>
+	<img>44</img>
+	<js>14</js>
+	<css>2</css>
+	<pdf/>
+	<doc/>
+	<xls/>
+	<ppt/>
+	<swf/>
+	<mp3/>
+	<mp4/>
+	<xml/>
+	<json/>
+	<txt/>
+	<fonts>12</fonts>
+	<scraping_reload>1</scraping_reload>
+	<is_pretty_url>false</is_pretty_url>
+	<is_ebn>false</is_ebn>
+	<theme_name>415295</theme_name>
+	<server_url_front_page>https://www6.waybackmachinedownloader.com/wdo/files/demo/tuborg.dk_august12.feb2004_gmail.com_an7qy54a6s/</server_url_front_page>
+	<no_www_url>tuborg.dk</no_www_url>
+	<hosted_domain/>
+	<original_archive_url>http://tuborg.dk</original_archive_url>
+	<final_archive_url>https://tuborg.dk:443/</final_archive_url>
+	<front_page_code_date/>
+	<total_urls_from_api/>
+	<search_url_added>false</search_url_added>
+	<total_size>19736</total_size>
+</pagescount>
